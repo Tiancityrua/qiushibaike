@@ -16,5 +16,5 @@ def parse(html):
             f.write(text)
             f.write(vote)
             f.write(comment)
-response=getpage(3)
+response=getpage(1)
 parse(response.text)
